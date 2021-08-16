@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../Assets/Marvel-Comics-Logo.svg.png";
 import menu from "../Assets/menu.svg";
 import "../Components/Header.css";
+import search from "../Assets/search.svg"
 
 export default function Header() {
   return (
@@ -27,7 +28,7 @@ export default function Header() {
             <form  className="formSubmit">
               <input type="text" className="inputRecherche" />
               <button type="submit">
-                <img src={menuIcon} alt="loupe" className="logoloupe" />
+                <img src={search} alt="loupe" className="logoloupe" />
               </button>
             </form>
           </li>
