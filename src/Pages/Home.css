@@ -1,0 +1,16 @@
+.home-bg-img{
+    background-image: url(../Assets/marvel-characters.jpg);
+    height: 455px;
+    width: 100%;
+    position: relative;
+    background-position: 50%;
+    background-size: cover; 
+    object-fit: cover;
+}
+.home-bas-forme {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    pointer-events: none;
+}

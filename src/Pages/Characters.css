@@ -1,0 +1,44 @@
+.containerCardCharacters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .cardCharacters{
+     height: 380px;
+     width: 200px;
+     margin: 0 30px 30px 0;
+     position: relative;
+     transition: all 0.4s;
+     border-radius: 10px;
+     margin-top: 10px;
+     box-shadow: 2px 11px 36px -16px rgba(0, 0, 0, 0.75);
+     overflow: hidden;
+     
+ }
+ .cardCharacters img{
+     height: 70%;
+     width: 100%;
+     object-fit: cover;
+ }
+ .cardCharacters:hover{
+     transform: translateY(-5px)
+ }
+ .cardBodyCharacters{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-left: 0px; 
+     
+ }
+ .titreCardCharacters{
+    margin: unset;
+ }
+ .descCardCharacters{
+    padding: 0 10px;
+    font-size: 10px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical; 
+   
+ }
