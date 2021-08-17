@@ -5,10 +5,6 @@ import menu from "../Assets/menu.svg";
 import "../Components/Header.css";
 
 export default function Header() {
-
-
-
-
   return (
     <>
       <header>
@@ -27,8 +23,6 @@ export default function Header() {
           <li className="item-nav">
             <Link to="/favoris">Favoris</Link>
           </li>
-          
-          
         </ul>
         <div className="btn-toggle" role="button">
           <img src={menu} alt="icone menu" />

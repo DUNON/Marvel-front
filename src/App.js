@@ -8,14 +8,7 @@ import Character from './Pages/Character';
 import Home from './Pages/Home';
 import Results from './Components/Results';
 
-
-
 function App() {
-  
- 
-
-
-
 
   return (
     <div className="App">
