@@ -41,7 +41,7 @@ export default function Search() {
                 history.push(`/search/${category}/${searchInput}`);
               }}
             >
-              LET'S GO!
+              OK
             </button>
           </li>
         </ul>
