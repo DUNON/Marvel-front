@@ -11,7 +11,7 @@ export default function Results() {
   useEffect(() => {
     const flechdata = async () => {
       const response = await axios.get(
-        `http://localhost:4000/search/${category}/${searchInput}`
+        `https://marvel-back-app.herokuapp.com/search/${category}/${searchInput}`
       );
       setData(response.data.results);
       setIsLoading(false);
