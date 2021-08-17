@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 import logo from "../Assets/Marvel-Comics-Logo.svg.png";
 import menu from "../Assets/menu.svg";
 import "../Components/Header.css";
-import search from "../Assets/search.svg"
 
 export default function Header() {
+
+
+
+
   return (
     <>
       <header>
@@ -24,14 +27,7 @@ export default function Header() {
           <li className="item-nav">
             <Link to="/favoris">Favoris</Link>
           </li>
-          <li className="item-nav">
-            <form  className="formSubmit">
-              <input type="text" className="inputRecherche" />
-              <button type="submit">
-                <img src={search} alt="loupe" className="logoloupe" />
-              </button>
-            </form>
-          </li>
+          
           
         </ul>
         <div className="btn-toggle" role="button">

@@ -6,22 +6,33 @@ import Comics from './Pages/Comics';
 import Characters from './Pages/Characters';
 import Character from './Pages/Character';
 import Home from './Pages/Home';
+import Results from './Components/Results';
+
 
 
 function App() {
+  
+ 
+
+
+
+
   return (
     <div className="App">
     <Router>
       <Header/>
       <Switch>
         <Route exact path="/comics">
-        <Comics/>
+        <Comics />
         </Route>
         <Route path="/comics/:id">
         <Character/>
         </Route>
         <Route path="/characters">
         <Characters/>
+        </Route>
+        <Route path="/search/:category/:searchInput">
+        <Results/>
         </Route>
         <Route path="/">
         <Home/>

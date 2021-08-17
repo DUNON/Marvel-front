@@ -2,7 +2,7 @@ import { useState,useEffect }from 'react'
 import axios from 'axios';
 import "../Pages/Comics.css"
 
-export default function Comics() {
+export default function Comics({addFav}) {
     const [data,setData]=useState()
     const [isloading,setIsLoading]=useState(true)
 
